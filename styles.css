@@ -1,2 +1,13 @@
+.gallery{
+	display: grid;
+	grid-template-rows: repeat(4, auto);
+}
 
-/* Your CSS Code here. */
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+img{
+	height: 20px;
+	width: 20px;
+}
